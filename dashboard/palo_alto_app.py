@@ -94,7 +94,7 @@ def dark(fig, height=340, legend=False):
 # ── Data loading ───────────────────────────────────────────────────────────────
 @st.cache_data
 def load():
-    df = pd.read_csv("dashboard/Palo Alto Networks.csv")
+    df = pd.read_csv("Palo Alto Networks.csv")
     df.columns = df.columns.str.lower()
 
     # Engagement index
